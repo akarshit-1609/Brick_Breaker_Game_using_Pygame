@@ -254,7 +254,7 @@ class Statistics:
             result = "You Win"
             color = (0, 255, 0)
         else:
-            result = "You Loss! Your Score is " + str(self.score)
+            result = "You Lose! Your Score is " + str(self.score)
             color = (255, 0, 0)
         font = pygame.font.Font(None, 50)
         text = font.render(result, False, color)
