@@ -383,6 +383,6 @@ while running:
         stat.final_result(False)
 
     pygame.display.update()
-    clock.tick(600)
+    clock.tick(300)
 
 pygame.quit()
